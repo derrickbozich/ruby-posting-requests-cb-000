@@ -1956,3 +1956,33 @@ Processing by SearchesController#foursquare as HTML
   Parameters: {"utf8"=>"✓", "authenticity_token"=>"Gu+NWPUMVMxytud+dybrJ6YWBMrUcaeNpDKlEC05XJyuUnk1LrMw9Y8yEGfiKrDnzkxQufHHXKqGjq59ngsYXQ==", "zipcode"=>"80033", "commit"=>"Search!"}
   Rendered searches/search.html.erb within layouts/application (6.3ms)
 Completed 200 OK in 512033ms (Views: 100.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.205.68.225 at 2018-10-15 17:23:40 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+  Rendered searches/search.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 203ms (Views: 179.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for 71.205.68.225 at 2018-10-15 17:23:53 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g1mnPoTfqdsjj3x0UMGaA/6tVAg9gcfn5Kw7yFEsLuA35FNTX2DN4t4Li23FzcHDlvcAexg3PMDGEDCl4h5qIQ==", "zipcode"=>"80033", "commit"=>"Search!"}
+  Rendered searches/search.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 5640ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tips" for 71.205.68.225 at 2018-10-15 17:24:28 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UEmHexnyG8oEq09p2vhoNoVBoC9P6dzqfT1RZ1AK+5Pk9HMWwk1/8/kvuHBP9DP27Rv0XGpfJ81fgVoK4zi/Ug==", "venue_id"=>"500d72ace4b0ba42c3017ced", "tip"=>"Love this place!", "commit"=>"Add Tip"}
+Redirected to http://165.227.16.205:47084/tips
+Completed 302 Found in 456ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tips" for 71.205.68.225 at 2018-10-15 17:24:29 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TipsController#index as HTML
+  Rendered tips/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 197ms (Views: 18.8ms | ActiveRecord: 0.0ms)
