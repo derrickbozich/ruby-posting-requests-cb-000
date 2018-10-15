@@ -1710,3 +1710,19 @@ Processing by SearchesController#search as HTML
 Redirected to https://foursquare.com/oauth2/authenticate?client_id=2LMCKOCKST45CTYF3C01MWWGXUKLVQOGK234SHE3JYMJDZSF&response_type=code&redirect_uri=http%3A%2F%2F165.227.16.205%3A47084%2Fauth
 Filter chain halted as :authenticate_user rendered or redirected
 Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?code=0QZHFTDSWBGOQFKJ22Y2BQVNEV4RPTL2TP5MRCNEMFZYFONL" for 71.205.68.225 at 2018-10-15 16:50:12 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"code"=>"0QZHFTDSWBGOQFKJ22Y2BQVNEV4RPTL2TP5MRCNEMFZYFONL"}
+Redirected to http://165.227.16.205:47084/
+Completed 302 Found in 136ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 71.205.68.225 at 2018-10-15 16:50:13 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#search as HTML
+Redirected to https://foursquare.com/oauth2/authenticate?client_id=2LMCKOCKST45CTYF3C01MWWGXUKLVQOGK234SHE3JYMJDZSF&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A3000%2Fauth
+Filter chain halted as :authenticate_user rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
