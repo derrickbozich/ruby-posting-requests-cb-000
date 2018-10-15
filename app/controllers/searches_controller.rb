@@ -1,5 +1,6 @@
 class SearchesController < ApplicationController
   def search
+    binding.pry
   end
   def friends
     resp = Faraday.get("https://api.foursquare.com/v2/users/self/friends") do |req|
