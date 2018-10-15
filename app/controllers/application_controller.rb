@@ -11,6 +11,7 @@ private
     # redirect_uri = CGI.escape("http://localhost:3000/auth")
     redirect_uri = CGI.escape("http://165.227.16.205:47084/auth")
     foursquare_url = "https://foursquare.com/oauth2/authenticate?client_id=#{client_id}&response_type=code&redirect_uri=#{redirect_uri}"
+    binding.pry
     redirect_to foursquare_url unless logged_in?
   end
 
