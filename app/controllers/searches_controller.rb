@@ -25,6 +25,7 @@ class SearchesController < ApplicationController
     body = JSON.parse(@resp.body)
 
     if @resp.success?
+      binding.pry
       @venues = body["response"]["venues"]
     else
       @error = body["meta"]["errorDetail"]
