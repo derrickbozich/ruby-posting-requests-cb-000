@@ -1913,3 +1913,8 @@ Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.
 
 Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 71.205.68.225 at 2018-10-15 17:00:38 +0000
 Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/friends" for 71.205.68.225 at 2018-10-15 17:01:19 +0000
+Cannot render console from 71.205.68.225! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SearchesController#friends as HTML
