@@ -8,7 +8,7 @@ class SessionsController < ApplicationController
       req.params['client_secret'] = ENV['FOURSQUARE_SECRET']
       req.params['grant_type'] = 'authorization_code'
       # req.params['redirect_uri'] = "http://localhost:3000/auth"
-      req.params['redirect_uri'] = "http://165.227.60.187:42662/auth"
+      req.params['redirect_uri'] = "http://165.227.16.205:47084/auth"
       req.params['code'] = params[:code]
     end
     binding.pry
